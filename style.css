@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Century Schoolbook L";
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    background-color:blueviolet;
+}
+.form{
+    width:420px;
+    background-color: darkslategrey;
+    border: 2px steelblue;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+.form h1{ text-decoration: underline;
+    font-family: "Abyssinica SIL";
+    color: darkcyan;
+    text-align: center;
+}
+.form .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    margin: 30px 0px;
+}
+.input-box input{
+    width:100px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+}
+.input-box input::placeholder{
+    color: white;
+}
+.form .btn button{
+    width: 100%;
+    height: 20px;
+    background: hotpink;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: lightgoldenrodyellow;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+}
+
